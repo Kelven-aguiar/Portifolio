@@ -1,0 +1,230 @@
+*{
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  padding: 0%;
+}
+body{
+  display: flex;
+  height: 200vh;
+  width: auto;
+  background-color: #22212C;
+}
+aside{
+  margin: 1%;
+  background-color: #22212C;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  }
+  .perfil{
+   display: flex;
+   flex-direction: column;
+   background-color: #302F3D;
+   height: 270px;
+   align-items: center;
+   border-radius: 5%;
+   box-shadow: 1px 1px 1px;
+   
+}
+    .img{
+     border: 2px solid #00ff15;
+     height: 128px;
+     width: 128px;
+     border-radius: 100px;
+     margin-top: 8%;
+     }
+    .myname{
+      margin-top: 4%;
+      color: #837E9F;
+      font-weight: 700;
+      justify-content: center;
+      align-items: center;
+      font-size: 30px;
+    }
+    .productionengineer{
+      color: #837E9F;
+      font-weight: 500;
+      font-size: 15px;
+    }
+
+    .frontenddeveloper{
+      color: #837E9F;
+      font-weight: 500;
+      font-size: 15px;
+    }
+
+.sites{
+  background-color: #302F3D;
+  border-radius: 4%;
+  box-shadow: 1px 1px 1px;
+  margin-top: 3%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+   .sites a{
+   text-decoration: none;
+   color: #837E9F;
+   font-weight: 700;
+   }
+   .linetext{
+    display: flex;
+    color: #837E9F;
+    font-weight: 500;
+    margin-bottom: 10px;
+   }
+   .inetextult{
+    display: flex;
+    color: #837E9F;
+    font-weight: 500;
+
+   }
+   .texto{ 
+    margin-left: 10px;
+    
+   }
+   .zapzap
+   {
+    height: 22px;
+    width: 22px;
+    filter: invert(55%) sepia(5%) saturate(1861%) hue-rotate(209deg) brightness(92%) contrast(81%);
+
+   }
+   .icons{
+    filter: invert(55%) sepia(5%) saturate(1861%) hue-rotate(209deg) brightness(92%) contrast(81%);
+   }
+
+
+.boxtecnologias{
+  background-color: #302F3D;
+  border-radius: 4%;
+  box-shadow: 1px 1px 1px black;
+  margin-top: 3%;
+  color: #837E9F;
+  display: flex;
+  height: 180px;
+  flex-direction: column;
+  padding-bottom: 190px;
+  
+}
+  .boxtecnologias h1{
+   margin: 10px 5px 5px 20px;
+  }
+
+  .tecnologias{
+   display: flex;
+   list-style: none;
+   color: black;
+   font-weight: 700;
+   border-radius: 10px;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+
+  }
+  .tecnologias li{
+    border-radius: 10px;
+    display: flex;
+    margin: 4px 10px; 
+    height: 30px;
+    width: 98px;
+    background-color: #CB92B1;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 13.5px;
+   }
+
+.education{
+  background-color: #302F3D;
+  border-radius: 4%;
+  box-shadow: 1px 1px 1px;
+  margin-top: 3%;
+  flex-direction: column;
+}
+   .education h1{
+    color: #837E9F;
+    margin: 10px 5px 7px 20px;
+   }
+   .education li{
+    color: #837E9F;
+    margin: 1px 1px 1px 20px;
+    font-weight: 900;
+   }
+   .education p{ 
+    color: #837E9F;
+    margin: 1px 1px 20px 20px;
+    font-weight: 500;
+   }
+.experiencias{
+  background-color: #302F3D;
+  border-radius: px;
+  box-shadow: 1px 1px 1px;
+  margin-top: 3%;
+}
+
+
+
+
+
+
+
+
+
+:root {
+  --body-bg-color: #22212C;
+  --text-color: #837E9F;
+  --bg-cards: #302F3D;
+  --bg-techs: #CB92B1;
+}
+
+main{
+  background-color: #22212C;
+  flex: 100%;
+  margin: 1%;
+}
+  .myproject{
+    background-color: #302F3D;
+    height: 90px;
+    width: auto;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px black;
+    color: #837E9F;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+  }
+    .myprojecttext{
+      margin-left: 20px;
+      font-size: 30px;
+    }
+
+    .vertodos{
+      cursor: pointer;
+      margin-right: 50px;
+      font-size: 20px;
+    }
+
+  .projects{
+    display: flex;
+  }
+    .social-tree{
+      margin-top: 10px;
+      background-color: #302F3D;
+
+      border-radius: 4px;
+      box-shadow: 1px 1px 1px black;
+      color: #837E9F;
+      display: flex;
+    }
+    .counter{
+      margin-top: 10px;
+      background-color: #302F3D;
+
+      border-radius: 4px;
+      box-shadow: 1px 1px 1px black;
+      color: #837E9F;
+      display: flex;
+    }
+
