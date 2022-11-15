@@ -208,23 +208,57 @@ main{
 
   .projects{
     display: flex;
+    flex-direction: column;
   }
-    .social-tree{
+    .social-tree-box{
+      width: 20%;
+      height: 330px;
       margin-top: 10px;
       background-color: #302F3D;
-
       border-radius: 4px;
       box-shadow: 1px 1px 1px black;
+      display: flex;
       color: #837E9F;
       display: flex;
+      flex-direction: column;
+      align-items: center;
     }
-    .counter{
+    .linksocialtree{
+      color: #837E9F;
+
+    }
+    .boxlinkst{
+      margin-top: 4%;
+    }
+    
+    .imgsocialtree{
+      border-radius: 10px;
+      margin-top: 5%;
+      height: 250px;
+      width: 250px;
+    }
+    .counter-box{
+      width: 20%;
+      height: 330px;
       margin-top: 10px;
       background-color: #302F3D;
-
       border-radius: 4px;
       box-shadow: 1px 1px 1px black;
+      display: flex;
       color: #837E9F;
       display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .boxlinkc{
+      margin-top: 4%;
     }
 
+    .linkc{
+      color: #837E9F;
+    }
+    .imgcounter{
+      border-radius: 10px;
+      margin-top: 5%;
+      height: 250px;
+    }
